@@ -42,7 +42,7 @@ resources:
     source:
       url: ((nexus-release-url))
       snapshot_url: ((nexus-snapshot-url))
-      artifact: am.ik.hazelcast.dns:hazelcast-dns-service-discovery:jar
+      artifact: am.ik.hazelcast:hazelcast-dns-service-discovery:jar
       username: ((nexus-username))
       password: ((nexus-password))
       skip_cert_check: true
@@ -51,7 +51,7 @@ resources:
     source:
       url: https://oss.sonatype.org/service/local/staging/deploy/maven2
       snapshot_url: https://oss.sonatype.org/content/repositories/snapshots/
-      artifact: am.ik.hazelcast.dns:hazelcast-dns-service-discovery:jar
+      artifact: am.ik.hazelcast:hazelcast-dns-service-discovery:jar
       username: ((sonatype-username))
       password: ((sonatype-password))
   - name: slack-alert
