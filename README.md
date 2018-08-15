@@ -40,3 +40,7 @@ Configure the following in `hzconfig.xml`
     </network>
 </hazelcast>
 ```
+
+Here is an example that uses Cloud Foundry DNS service discovery:
+
+https://github.com/making/demo-payara-micro5/blob/hazelcast/pom.xml
