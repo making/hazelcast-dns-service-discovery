@@ -1,0 +1,1 @@
+sample service registry is [here](https://github.com/making/cf-payara-micro/tree/tiny-service-registry).
