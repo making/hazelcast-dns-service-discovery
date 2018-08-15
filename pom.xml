@@ -6,7 +6,7 @@
 
     <groupId>am.ik.hazelcast</groupId>
     <artifactId>hazelcast-dns-service-discovery</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>hazelcast-dns-service-discovery</name>
     <description>DNS Cloud Discovery for Hazelcast</description>
