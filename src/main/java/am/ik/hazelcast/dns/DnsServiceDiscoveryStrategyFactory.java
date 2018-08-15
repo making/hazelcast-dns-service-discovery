@@ -27,8 +27,8 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
 
-import static am.ik.hazelcast.dns.DnsRestServiceProperties.HOSTNAME;
-import static am.ik.hazelcast.dns.DnsRestServiceProperties.PORT;
+import static am.ik.hazelcast.dns.DnsServiceDiscoveryProperties.HOSTNAME;
+import static am.ik.hazelcast.dns.DnsServiceDiscoveryProperties.PORT;
 
 public class DnsServiceDiscoveryStrategyFactory implements DiscoveryStrategyFactory {
 

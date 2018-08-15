@@ -22,7 +22,7 @@ import com.hazelcast.config.properties.SimplePropertyDefinition;
 import static com.hazelcast.config.properties.PropertyTypeConverter.INTEGER;
 import static com.hazelcast.config.properties.PropertyTypeConverter.STRING;
 
-public final class DnsRestServiceProperties {
+public final class DnsServiceDiscoveryProperties {
 
     public static final PropertyDefinition HOSTNAME =
             new SimplePropertyDefinition("hostname", false, STRING);

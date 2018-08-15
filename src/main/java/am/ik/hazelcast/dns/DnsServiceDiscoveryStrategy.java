@@ -29,8 +29,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static am.ik.hazelcast.dns.DnsRestServiceProperties.HOSTNAME;
-import static am.ik.hazelcast.dns.DnsRestServiceProperties.PORT;
+import static am.ik.hazelcast.dns.DnsServiceDiscoveryProperties.HOSTNAME;
+import static am.ik.hazelcast.dns.DnsServiceDiscoveryProperties.PORT;
 
 public class DnsServiceDiscoveryStrategy extends AbstractDiscoveryStrategy {
 
