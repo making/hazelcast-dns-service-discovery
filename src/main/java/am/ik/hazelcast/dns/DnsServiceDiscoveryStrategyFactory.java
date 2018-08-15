@@ -32,7 +32,7 @@ import static am.ik.hazelcast.dns.DnsRestServiceProperties.PORT;
 
 public class DnsServiceDiscoveryStrategyFactory implements DiscoveryStrategyFactory {
 
-    private static final Collection<PropertyDefinition> PROPERTY_DEFINITIONS = //
+    private static final Collection<PropertyDefinition> PROPERTY_DEFINITIONS =
             Collections.unmodifiableCollection(
                     Arrays.asList(HOSTNAME, PORT));
 

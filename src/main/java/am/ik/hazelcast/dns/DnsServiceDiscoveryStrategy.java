@@ -38,13 +38,13 @@ public class DnsServiceDiscoveryStrategy extends AbstractDiscoveryStrategy {
     private final int port;
     private final ILogger logger;
 
-    public DnsServiceDiscoveryStrategy(ILogger logger, //
+    public DnsServiceDiscoveryStrategy(ILogger logger,
                                        Map<String, Comparable> properties) {
         super(logger, properties);
         this.hostname = getOrNull(HOSTNAME);
         this.port = getOrDefault(PORT, NetworkConfig.DEFAULT_PORT);
         this.logger = logger;
-        logger.info("DnsServiceDiscoveryStrategy: created {hostname=" //
+        logger.info("DnsServiceDiscoveryStrategy: created {hostname="
                 + this.hostname + "}");
     }
 

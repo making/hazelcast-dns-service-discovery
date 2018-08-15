@@ -24,8 +24,8 @@ import static com.hazelcast.config.properties.PropertyTypeConverter.STRING;
 
 public final class DnsRestServiceProperties {
 
-    public static final PropertyDefinition HOSTNAME = //
+    public static final PropertyDefinition HOSTNAME =
             new SimplePropertyDefinition("hostname", false, STRING);
-    public static final PropertyDefinition PORT = //
+    public static final PropertyDefinition PORT =
             new SimplePropertyDefinition("port", true, INTEGER);
 }
